@@ -1,11 +1,15 @@
-html{
+html {
     overflow-x: hidden;
 }
 
 body {
     overflow-x: hidden;
     background-color: #fafafa;
-    
+
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background: white !important;
 }
 
 .row {
@@ -187,6 +191,47 @@ footer .last {
 /* media////////////////// */
 
 
+@media (max-width:1280px) {
+    .row .home .right {
+        margin-top: -3em !important;
+        margin-right: 3em;
+        height: auto;
+    }
+
+    .row .home .left {
+        height: auto;
+        width: 23em;
+        margin-top: 12em;
+        margin-left: 1em;
+
+    }
+
+    section#blog {
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    #blog .row {
+        justify-content: space-around;
+
+    }
+
+    .card.col-xl-3.col-md-5.col-12 {
+        margin-bottom: 2em;
+    }
+
+
+
+
+
+
+
+
+    .row .home .left h1 {
+        font-size: 2.31em;
+    }
+}
+
 @media (max-width:992px) {
 
     button.navbar-toggler {
@@ -195,11 +240,20 @@ footer .last {
 
     .row .home .left {
         order: 2;
-        height: 18em;
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    .col-lg-6.col-10.about.mb-5.d-block {
+        margin-top: 2em;
     }
 
     .row .home .left p {
         width: 70%;
+    }
+
+    .row .home .left h1 {
+        font-size: 2.5em;
     }
 
     section.ss {
@@ -210,7 +264,7 @@ footer .last {
 
     section#about {
         width: 100%;
-        height: 54em;
+        height: auto;
     }
 
     section#blog {
@@ -255,44 +309,86 @@ footer .last {
 }
 
 @media (max-width:768px) {
-
-    section#blog {
-        height: 120em;
+    body {
+        overflow-x: hidden;
     }
 
-    footer .logo,
-    footer .fir,
-    footer .sec,
-    footer .last {
-        padding-top: 0em;
-        padding-bottom: 0em;
-        text-align: center;
-        margin-left: 0em;
+    .row .home .left {
+        order: 2;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 3em;
+
+    }
+
+    .row .home .left p {
+        width: 90%;
+    }
+
+    button.navbar-toggler {
+        margin-right: 0em !important;
+    }
+
+
+    footer .logo ul {
+        margin-left: 3em;
+    }
+
+
+    footer .fir ul,
+    footer .sec ul {
+        margin: auto;
+        color: white;
+
+    }
+
+
+    footer .fir ul li,
+    footer .sec ul li {
+        margin-top: 14px;
     }
 
     footer img.d-block {
         display: block !important;
-        scale: 2;
-        margin-bottom: 2em;
-        margin-left: 9em;
-        padding-top: 1em;
+        scale: 1.5;
+        margin-bottom: 1em;
+        margin-left: 7em;
     }
 
-    footer .last button {
-        margin-left: 0;
-    }
+    .last {
 
-    footer .last h6 {
-        color: white;
-        margin-left: 0em;
+
         padding: 1em;
     }
 
-    footer .logo ul {
-        list-style: none;
-        display: flex;
-        margin-left: 5em;
+    .col-lg-6.col-10.about.mb-5.d-block {
+        margin-top: 2em;
     }
+
+    .row .home .left {
+        order: 2;
+        height: auto;
+        padding-bottom: 21px;
+    }
+
+    section#blog {
+        height: auto;
+    }
+
+    .col-md-3.col-12 {
+        width: 35% !important;
+        padding: 0;
+        margin: auto;
+    }
+
+    .col-md-2.col-12 {
+        width: 10% !important;
+        margin: auto;
+    }
+
+
+
+
 }
 
 @media (max-width:576px) {
@@ -302,36 +398,98 @@ footer .last {
 
     .row .home .left {
         order: 2;
-        height: 37em;
-        margin-top: 12em;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 3em;
+
+    }
+
+    .row .home .left p {
+        width: 90%;
     }
 
     button.navbar-toggler {
         margin-right: 0em !important;
     }
 
-    .row .home .left {
-        order: 2;
-        height: 24em;
-        margin: 0;
-        margin-left: 0;
-        margin-top: 5em;
-        padding: 0;
-    }
 
     footer .logo ul {
         list-style: none;
         display: flex;
-        margin-left: 3em;
+
+    }
+
+
+    footer .fir ul,
+    footer .sec ul {
+        margin: auto;
+        color: white;
+
+    }
+
+
+    footer .fir ul li,
+    footer .sec ul li {
+        margin-top: 14px;
+    }
+
+    footer img.d-block {
+        margin: auto;
+        margin-top: 0em;
+        padding: 2em;
+    }
+
+    .last {
+        margin: auto;
+        margin-top: 27px;
+    }
+
+    .col-lg-6.col-10.about.mb-5.d-block {
+        margin-top: 2em;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .row .home .left {
+        order: 2;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 1em;
+        margin-left: -45px;
+    }
+
+    section.ss .card {
+        background-color: #f4f5f7;
+        border: none !important;
+        width: 90%;
+    }
+
+    section#about {
+        width: 100%;
+        margin-bottom: 0em;
+    }
+
+    section#about {
+        height: auto;
+    }
+
+    section#blog {
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    footer .logo ul {
+        margin: 0;
     }
 
     footer .fir ul,
     footer .sec ul {
-        margin-left: 6em;
-        width: 10em;
-        list-style: none;
+        margin: auto;
         color: white;
     }
 
-
+    .col-lg-6.col-10.about.mb-5.d-block {
+        margin-top: 2em;
+    }
 }
