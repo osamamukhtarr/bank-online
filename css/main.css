@@ -191,7 +191,7 @@ footer .last {
 /* media////////////////// */
 
 
-@media (max-width:1280px) {
+@media   (max-width:1280px) {
     .row .home .right {
         margin-top: -3em !important;
         margin-right: 3em;
@@ -232,11 +232,9 @@ footer .last {
     }
 }
 
-@media (max-width:992px) {
+@media  (max-width:992px) {
 
-    button.navbar-toggler {
-        /* margin-right: 25em !important; */
-    }
+
 
     .row .home .left {
         order: 2;
@@ -308,7 +306,7 @@ footer .last {
     }
 }
 
-@media (max-width:768px) {
+@media  (max-width:768px) {
     body {
         overflow-x: hidden;
     }
@@ -391,7 +389,7 @@ footer .last {
 
 }
 
-@media (max-width:576px) {
+@media  (max-width:576px) {
     body {
         overflow-x: hidden;
     }
@@ -413,24 +411,41 @@ footer .last {
     }
 
 
+ 
+    footer .logo ul {
+        margin: 0;
+    }
+
+    footer .fir ul,
+    footer .sec ul {
+        margin: auto;
+        color: white;
+    }
+
+    .col-lg-6.col-10.about.mb-5.d-block {
+        margin-top: 2em;
+    }
+    
     footer .logo ul {
         list-style: none;
         display: flex;
 
     }
 
-
-    footer .fir ul,
-    footer .sec ul {
+    .col-md-2.col-12 {
+        width: 100% !important;
+        padding: 0;
         margin: auto;
-        color: white;
-
     }
-
-
-    footer .fir ul li,
-    footer .sec ul li {
-        margin-top: 14px;
+    
+        footer .fir ul li,
+        footer .sec ul li {
+            margin-top: 14px;
+        }
+    footer .logo, footer .fir, footer .sec, footer .last {
+        padding-top: 0em;
+        padding-bottom: 1em;
+        margin-left: -7em;
     }
 
     footer img.d-block {
@@ -439,18 +454,14 @@ footer .last {
         padding: 2em;
     }
 
-    .last {
-        margin: auto;
-        margin-top: 27px;
-    }
+    .col-md-5.col-12 .last {
+        margin-left: -10em;
 
-    .col-lg-6.col-10.about.mb-5.d-block {
-        margin-top: 2em;
     }
 
 }
 
-@media (max-width: 370px) {
+@media  (max-width: 370px) {
     .row .home .left {
         order: 2;
         margin: auto;
@@ -492,4 +503,39 @@ footer .last {
     .col-lg-6.col-10.about.mb-5.d-block {
         margin-top: 2em;
     }
+    
+    footer .logo ul {
+        list-style: none;
+        display: flex;
+
+    }
+
+    .col-md-2.col-12 {
+        width: 100% !important;
+        padding: 0;
+        margin: auto;
+    }
+    
+        footer .fir ul li,
+        footer .sec ul li {
+            margin-top: 14px;
+        }
+    footer .logo, footer .fir, footer .sec, footer .last {
+        padding-top: 0em;
+        padding-bottom: 1em;
+        margin-left: -7em;
+    }
+
+    footer img.d-block {
+        margin: auto;
+        margin-top: 0em;
+        padding: 2em;
+    }
+
+    .col-md-5.col-12 .last {
+        margin-left: -10em;
+
+    }
+
+
 }
