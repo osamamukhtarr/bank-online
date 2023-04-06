@@ -191,7 +191,7 @@ footer .last {
 /* media////////////////// */
 
 
-@media   (max-width:1280px) {
+@media (max-width:1280px) {
     .row .home .right {
         margin-top: -3em !important;
         margin-right: 3em;
@@ -232,7 +232,7 @@ footer .last {
     }
 }
 
-@media  (max-width:992px) {
+@media (max-width:992px) {
 
 
 
@@ -306,7 +306,7 @@ footer .last {
     }
 }
 
-@media  (max-width:768px) {
+@media (max-width:768px) {
     body {
         overflow-x: hidden;
     }
@@ -367,9 +367,9 @@ footer .last {
         order: 2;
         height: auto;
         padding-bottom: 21px;
-       
-            width: 35em;
-    
+
+        width: 35em;
+
     }
 
     section#blog {
@@ -392,7 +392,7 @@ footer .last {
 
 }
 
-@media  (max-width:576px) {
+@media (max-width:576px) {
     body {
         overflow-x: hidden;
     }
@@ -404,7 +404,8 @@ footer .last {
         margin-bottom: 3em;
 
     }
-   .row .home .left p {
+
+    .row .home .left p {
         width: 90%;
     }
 
@@ -413,7 +414,7 @@ footer .last {
     }
 
 
- 
+
     footer .logo ul {
         margin: 0;
     }
@@ -427,7 +428,7 @@ footer .last {
     .col-lg-6.col-10.about.mb-5.d-block {
         margin-top: 2em;
     }
-    
+
     footer .logo ul {
         list-style: none;
         display: flex;
@@ -439,12 +440,16 @@ footer .last {
         padding: 0;
         margin: auto;
     }
-    
-        footer .fir ul li,
-        footer .sec ul li {
-            margin-top: 14px;
-        }
-    footer .logo, footer .fir, footer .sec, footer .last {
+
+    footer .fir ul li,
+    footer .sec ul li {
+        margin-top: 14px;
+    }
+
+    footer .logo,
+    footer .fir,
+    footer .sec,
+    footer .last {
         padding-top: 0em;
         padding-bottom: 1em;
         margin-left: -7em;
@@ -463,7 +468,7 @@ footer .last {
 
 }
 
-@media  (max-width: 370px) {
+@media (max-width: 370px) {
     .row .home .left {
         order: 2;
         margin: auto;
@@ -505,7 +510,7 @@ footer .last {
     .col-lg-6.col-10.about.mb-5.d-block {
         margin-top: 2em;
     }
-    
+
     footer .logo ul {
         list-style: none;
         display: flex;
@@ -517,12 +522,16 @@ footer .last {
         padding: 0;
         margin: auto;
     }
-    
-        footer .fir ul li,
-        footer .sec ul li {
-            margin-top: 14px;
-        }
-    footer .logo, footer .fir, footer .sec, footer .last {
+
+    footer .fir ul li,
+    footer .sec ul li {
+        margin-top: 14px;
+    }
+
+    footer .logo,
+    footer .fir,
+    footer .sec,
+    footer .last {
         padding-top: 0em;
         padding-bottom: 1em;
         margin-left: -7em;
@@ -540,4 +549,54 @@ footer .last {
     }
 
 
+}
+
+
+
+
+
+
+
+
+.card .card-body h3:hover{
+
+    color: #3dc191;
+    cursor: pointer;
+
+}
+
+
+
+ul li:hover {
+
+    color: #3dc191;
+    cursor: pointer;
+}
+
+a.nav-link {
+    transition: all 0.1s;
+}
+
+a.nav-link:hover {
+    color: black;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #32cd76;
+}
+
+.navbar .container-fluid form button:hover {
+    background-color: white;
+
+    opacity: 0.6;
+}
+
+button.btn.btn-success.ms-5:hover {
+    background-color: white;
+
+    opacity: 0.6;
+}
+
+button.btn.btn-success:hover {
+    background-color: white;
+
+    opacity: 0.6;
 }
