@@ -367,6 +367,9 @@ footer .last {
         order: 2;
         height: auto;
         padding-bottom: 21px;
+       
+            width: 35em;
+    
     }
 
     section#blog {
@@ -401,8 +404,7 @@ footer .last {
         margin-bottom: 3em;
 
     }
-
-    .row .home .left p {
+   .row .home .left p {
         width: 90%;
     }
 
